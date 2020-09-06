@@ -8,7 +8,6 @@ But you are always welcome to contribute!
 
 ## Installation
 ---
-Not added to NPM yet. Coming soon!
 ```
 npm i express-sse-ts
 ```
