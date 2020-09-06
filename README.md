@@ -13,7 +13,7 @@ npm i express-sse-ts
 ## Usage
 ---
 ### Server
-```typescript
+```javascript
 import SSE from "./index";
 import express from "express"
 import * as path from "path";
