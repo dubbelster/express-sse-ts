@@ -1,0 +1,32 @@
+{
+  "name": "express-sse-typescript",
+  "version": "0.0.0",
+  "description": "Strongly typed server sent events module for express",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "buildDev": "tsc --watch",
+    "test": "nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none yet"
+  },
+  "keywords": [
+    "express",
+    "sse",
+    "server",
+    "sent",
+    "events"
+  ],
+  "author": "Merijn",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
