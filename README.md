@@ -1,5 +1,5 @@
 # express-sse-ts
----
+
 Strongly typed server sent events module for express.
 This modules is used as express middleware.
 
@@ -7,14 +7,14 @@ I made this module for personal use thus I won't be actively maintaining this mo
 But you are always welcome to contribute!  
 
 ## Installation
----
+
 ```
 npm i express-sse-ts
 ```
 
 
 ## Usage
----
+
 If you want to see a more extensive example, look at the source files: sandbox.ts & sandbox.html inside the 'src' folder.
 
 ### Server
