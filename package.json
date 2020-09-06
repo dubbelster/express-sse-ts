@@ -1,5 +1,5 @@
 {
-  "name": "express-sse-typescript",
+  "name": "express-sse-ts",
   "version": "0.0.0",
   "description": "Strongly typed server sent events module for express",
   "main": "dist/index.js",
@@ -19,7 +19,9 @@
     "sse",
     "server",
     "sent",
-    "events"
+    "events",
+    "typescript",
+    "ts"
   ],
   "author": "Merijn",
   "license": "ISC",
