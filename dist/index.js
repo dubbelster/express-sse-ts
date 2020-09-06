@@ -33,10 +33,10 @@ class SSE {
         });
         next();
     }
-    _send(data, event, id) {
+    _send(data, eventName, id) {
         this.clients.forEach(c => {
-            if (event)
-                c.res.write(`event: ${event}\n`);
+            if (eventName)
+                c.res.write(`event: ${eventName}\n`);
             if (id)
                 c.res.write(`id: ${id}\n`);
             c.res.write(`data: ${data}\n\n`);

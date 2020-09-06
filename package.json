@@ -8,7 +8,7 @@
     "prepublish": "npm run build",
     "build": "tsc",
     "buildDev": "tsc --watch",
-    "test": "nodemon dist/index.js"
+    "test": "nodemon dist/sandbox.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
     "sent",
     "events",
     "typescript",
-    "ts"
+    "ts",
+    "middleware",
+    "eventsource"
   ],
   "author": "Merijn",
   "license": "ISC",

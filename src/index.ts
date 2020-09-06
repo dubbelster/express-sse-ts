@@ -44,9 +44,9 @@ export default class SSE {
     }
     init = this._init.bind(this);
 
-    private _send(data: string, event?: string, id?: string | number) {
+    private _send(data: string, eventName?: string, id?: string | number) {
         this.clients.forEach(c => {
-            if (event) c.res.write(`event: ${event}\n`);
+            if (eventName) c.res.write(`event: ${eventName}\n`);
             if (id) c.res.write(`id: ${id}\n`)
             c.res.write(`data: ${data}\n\n`);
         });

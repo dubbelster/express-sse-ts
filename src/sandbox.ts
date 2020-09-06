@@ -1,19 +1,3 @@
-# express-sse-ts
----
-strongly typed server sent events module for express
-
-## Installation
----
-Not added to NPM yet. Coming soon!
-```
-npm i express-sse-ts
-```
-
-
-## Usage
----
-### Server
-```typescript
 import SSE from "./index";
 import express from "express"
 import * as path from "path";
@@ -43,20 +27,3 @@ setInterval(() => {
 app.listen(3000, () => {
     console.log('Express app listening on http://localhost:3000.')
 });
-```
-
-### Client
-```javascript
-const display = document.getElementById('display');
-const es = new EventSource('/events'); // Create EventSource
-
-// Listen to event with name 'message'
-es.onmessage = event => {
-    // Do something width event.
-}
-
-// Listen to event with name 'eventName'
-es.addEventListener('eventName', event => {
-    // Do something width event.
-});
-```
