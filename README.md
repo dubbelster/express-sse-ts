@@ -16,6 +16,8 @@ npm i express-sse-ts
 
 ## Usage
 ---
+If you want to see a more extensive example, look at the source files: sandbox.ts & sandbox.html inside the 'src' folder.
+
 ### Server
 ```javascript
 import SSE from "./index";
