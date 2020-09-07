@@ -4,6 +4,7 @@ Strongly typed server sent events module for express.
 This modules is used as express middleware.
 
 Because the module is strongly typed you'll have usefull helpers while coding!
+
 This does not mean you have to use TypeScript for it to work.
 Both TypeScript and JavaScript will work!
 
