@@ -15,7 +15,7 @@ npm i express-sse-ts
 
 ## Usage
 
-If you want to see a more extensive example, look at the source files: sandbox.ts & sandbox.html inside the 'src' folder.
+If you want to see a more extensive example, look at the [example source code](https://github.com/dubbelster/express-sse-ts-example)
 
 ### Server
 ```javascript
