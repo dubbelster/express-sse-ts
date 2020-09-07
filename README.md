@@ -19,7 +19,7 @@ If you want to see a more extensive example, look at the source files: sandbox.t
 
 ### Server
 ```javascript
-import SSE from "./index";
+import SSE from "express-sse-ts";
 import express from "express"
 import * as path from "path";
 
