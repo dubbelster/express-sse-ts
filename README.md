@@ -3,6 +3,9 @@
 Strongly typed server sent events module for express.
 This modules is used as express middleware.
 
+Because the module is strongly typed you'll have usefull helpers while coding!
+![Screenshot of usefull helper!](https://raw.githubusercontent.com/dubbelster/express-sse-ts/master/README%20assets/codingExample.png)
+
 I am happy to help if you encounter any problems!
 
 ## Installation
