@@ -1,6 +1,6 @@
 {
   "name": "express-sse-ts",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Strongly typed server sent events module for express",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
