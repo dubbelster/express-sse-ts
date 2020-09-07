@@ -3,8 +3,7 @@
 Strongly typed server sent events module for express.
 This modules is used as express middleware.
 
-I made this module for personal use originally.
-However if you have a problem I am happy to help!
+I am happy to help if you encounter any problems!
 
 ## Installation
 
